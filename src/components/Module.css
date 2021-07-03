@@ -1,0 +1,26 @@
+.module-root{
+   height: 100vh;
+   display: flex;
+   justify-content: space-evenly;
+  align-items: center;
+  
+}
+.module-root div{
+    height: 40vh;
+    width: 40vh;
+    border: 3px solid black;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.module-root div:hover{
+    background-color: rgb(104, 219, 129);
+    color: white;
+    cursor: pointer;
+}
+.module-root img{
+    height: 20vh;
+    width: 20vh;
+}

@@ -1,0 +1,12 @@
+.features-block1{
+    height: 100vh;
+    padding-top: 70px;
+    background-color: rgb(253, 249, 241);
+}
+.features-block1 div{
+     height: 15rem;
+
+}
+.features-block1 h1{
+    width: 20rem;
+}

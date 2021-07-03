@@ -1,0 +1,19 @@
+
+    .root-block{
+         height:90%;
+         background-size: cover;
+         background-blend-mode: overlay;
+         background-color: #383434;
+         background-position-x: center;
+    }
+    .wecomemsg {
+        color: white;
+        display: flex;
+        margin-top: 10rem;;
+        justify-content: center;
+        align-items: center;
+    }
+    .wecomemsg h1{
+        font-variant: small-caps;
+    }
+   
