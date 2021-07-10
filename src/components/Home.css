@@ -9,11 +9,42 @@
     .wecomemsg {
         color: white;
         display: flex;
+        flex-direction: column;
         margin-top: 10rem;;
         justify-content: center;
         align-items: center;
     }
     .wecomemsg h1{
         font-variant: small-caps;
+        text-shadow: 1px 1px 2px black;
     }
+    .wecomemsg h2{
+        font-variant: small-caps;
+        font-size: 4rem;;
+        text-shadow: 2px 2px 3px black;
+    }
+.learn-more .btn1{
+       height: 2.5rem;
+       width: 10rem;
+       background-color:white ;
+      /* border: 3px solid white; */
+       /* background: transparent; */
+       text-shadow: 1px 1px 2px black;
+       box-shadow: 1px 1px 2px black;
+       border: none;
+       font-size: 1.1rem;;
+       color: orange;
+       margin: 10px;
+}
+.learn-more .btn2{
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.1rem;;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin: 10px;
+    background-color:orange;
+    box-shadow: 1px 1px 2px black;
+}
    

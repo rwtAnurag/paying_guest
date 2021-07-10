@@ -1,0 +1,47 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(114, 200, 235);
+    height: 100vh;
+   
+}
+.insideContainer label{
+    position: relative;
+    right: 98px;
+}
+.insideContainer{
+    display: flex;
+    width: 30rem;
+    height: 25rem;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 199, 211)); */
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 60px rgb(2, 71, 99);
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+.loginContainer input{
+    width: 17rem;
+    padding: 10px;
+    background-color: gray;
+    height: 2.8rem;
+}
+.loginContainer input:focus{
+    background-color: white;
+}
+.loginContainer input:valid {
+    background-color: white
+  }
+.btnContainer{
+    width: 17rem;
+}
+.btnContainer button{
+    width: 17rem;
+    height: 2.8rem;
+    background-color: rgb(114, 200, 235);
+    border: none;
+    color: white;
+}

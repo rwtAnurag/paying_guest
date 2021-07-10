@@ -1,12 +1,72 @@
 .features-block1{
-    height: 100vh;
-    padding-top: 70px;
-    background-color: rgb(253, 249, 241);
+    /* height: 100vh; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
 }
-.features-block1 div{
-     height: 15rem;
-
+.insideBlock{
+     height: 12rem;
+     text-align: center;
+     display: flex;
+     padding-bottom: 100px;
 }
 .features-block1 h1{
+    width: 17rem;
+}
+.features-block1 h2{
+    text-shadow: 1px 1px 2px black;
+    color: orange;
+}
+.offercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-color:rgb(234, 249, 255) ;
+}
+.insideoffercontainer div{
     width: 20rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.insideoffercontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.offercontainer h2{
+    text-shadow: 1px 1px 2px black;
+    color: orange;
+}
+.featureImage{
+    height:60px;
+}
+.features-block1 h1{
+    font-size: 1.5rem;
+    
+}
+.whyPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;;
+    align-items: center;
+}
+.whyPg h2{
+    color: orange;
+
+    text-shadow: 1px 1px 2px black;
+}
+.offercontainerImg{
+    height: 10rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 skyblue, 0 6px 20px 0 rgb(32, 102, 231);
+    margin-bottom: 3rem;;
 }
