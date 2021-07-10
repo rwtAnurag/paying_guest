@@ -1,18 +1,48 @@
 .PgListContainer{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 8px 0 skyblue, 0 6px 20px 0 rgb(32, 102, 231);
+}
+.PgListContainerMain{
+    background-color: rgb(189, 232, 243); 
+    padding: 5rem;
 }
 .UserDetail{
     display: flex;
     flex-direction: column;
 }
 .pgImg{
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 30rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .adminDetail {
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
     margin-bottom: 2rem;
+}
+.adminDetail h2,.location h2{
+    text-shadow: 1px 1px 2px black;
+    color: rgb(0, 89, 255);
+    
+}
+.location img{
+    height: 8rem;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

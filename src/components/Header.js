@@ -17,7 +17,7 @@ function Header({handleLogout}) {
                 <button><Link style={{color:"White"}}  to={"/ContactUs"}>Contact Us</Link></button> 
                 <button><Link style={{color:"White"}} to={"/Home"}> About Us</Link></button> 
                 <Route path="/PgList"><PgList/></Route>
-             \
+             
                 {/* <button style={{backgroundColor:"orange"}} onClick={handleLogout}>Log In</button> */}
                 <div style={{ backgroundImage: `url(${User})`}} className="LogedInuser" >
                 </div>
