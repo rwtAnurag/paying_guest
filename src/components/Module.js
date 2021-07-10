@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import PgList from './PgList';
 import Pglist1 from '../T2.jpg';
 import Pglist2 from '../pglist.jpg';
-
+import {BrowserRouter as Router ,Link,Route} from  "react-router-dom"
 function Module() {
       
       console.log("data",Data[0].name);
@@ -23,7 +23,9 @@ function Module() {
                  We hope to provide you with the best renting solutions with the help of our designs and technology.Our services across the country will help you find and book Paying Guest (PG) rental homes.
                </h5>
                <button>
+                     <Link style={{color:"orange"}} to="/PgList">
                      Open  User Module
+                     </Link>
                </button>
             </div>
             <div>
@@ -45,7 +47,9 @@ function Module() {
                         Admin can also add PG location so that user will be able to track the Pg Location.
                         </h5>
                         <button>
+                              <Link style={{color:"orange"}} to={"/AdminMode"}>
                               Open Admin Mode
+                              </Link>
                         </button>
                </div>
           </div>

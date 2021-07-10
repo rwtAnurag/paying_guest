@@ -83,15 +83,18 @@ function App() {
   return (
     <>
       <div className="App">
-      <Router>
+      
         {user ? (
           <>
-
-              <Route path="/"><Home handleLogout={handleLogout}/></Route>
-              <Route path="/"> <Features/></Route>
-              <Route path="/"><Module/></Route>
-              <Route path="/"><Footer/></Route>   
-              <Route path="/PgList"><PgList/></Route>  
+          <Router>
+            <switch>
+              <Route path="/" exact><Home handleLogout={handleLogout}/></Route>
+              <Route path="/" exact> <Features/></Route>
+              <Route path="/" exact><Module/></Route>
+              <Route path="/" exact><Footer/></Route>    
+              <Route path="/PgList"><PgList/></Route>
+              </switch>
+          </Router>
            
           </>    
 
@@ -115,7 +118,7 @@ function App() {
 {/*        
         
         <Footer/>  */}
-        </Router>
+        
       </div>
       
     </>
