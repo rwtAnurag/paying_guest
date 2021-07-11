@@ -1,0 +1,49 @@
+.img-holder1{
+  height: 10rem;
+}
+.root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.root h1{
+  color: rgb(4, 0, 255);
+  text-shadow: 1px 1px 2px black;
+}
+.page{
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  background-color: rgb(186, 227, 250);
+  width: 30rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: skyblue; */
+}
+.page div{
+  display: flex;
+  flex-direction: column;
+}
+.page div label{
+  color: blue;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1rem;
+}
+
+.page div input{
+  border-radius: 5px;
+  border: none;
+  width: 20rem;
+  height: 3rem;
+}
+.submitbtn button{
+   border: none;
+   height: 3rem;
+   width: 8rem;
+   background-color: rgb(99, 230, 99);
+   color: white;
+   font-size: 1.3rem;
+   
+}

@@ -1,0 +1,21 @@
+.card
+{ 
+    height: 38rem;
+    width: 40rem;
+    padding: 5rem;;
+
+}
+.root{
+    height: 100vh;
+    background-color: rgb(218, 253, 218);
+}
+.root h1{
+   
+   color: green;
+
+}
+.card img{
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -3,6 +3,7 @@ import './Header.css';
 import User from '../User.png';
 import PgList from './PgList';
 import {BrowserRouter as Router ,Link,Route} from  "react-router-dom"
+import ContactUs from './ContactUs';
 function Header({handleLogout}) {
   return (
     <>
@@ -12,12 +13,12 @@ function Header({handleLogout}) {
              
                 <button> <Link style={{color:"White"}} to={"/"}>Home</Link></button> 
                 <button><Link style={{color:"White"}} to="/PgList">PgList</Link></button>
-                <button> <Link style={{color:"White"}} to={"/UserMode"}>   User Mode</Link></button> 
+                <button> <Link style={{color:"White"}} to={"/PgList"}>   User Mode</Link></button> 
                 <button><Link style={{color:"White"}} to={"/AdminMode"}>Admin Mode</Link></button> 
                 <button><Link style={{color:"White"}}  to={"/ContactUs"}>Contact Us</Link></button> 
                 <button><Link style={{color:"White"}} to={"/Home"}> About Us</Link></button> 
                 <Route path="/PgList"><PgList/></Route>
-             
+                <Route path="/ContactUs"><ContactUs/></Route>
                 {/* <button style={{backgroundColor:"orange"}} onClick={handleLogout}>Log In</button> */}
                 <div style={{ backgroundImage: `url(${User})`}} className="LogedInuser" >
                 </div>

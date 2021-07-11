@@ -6,6 +6,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import {BrowserRouter as Router ,Link,Route} from  "react-router-dom"
 
 const Footer = ( )=>{
      return (
@@ -23,12 +24,12 @@ const Footer = ( )=>{
                                    <LinkedInIcon fontSize='large' style={{border:"2px solid orange",padding:"5px",margin:"10px"}}/>
                               </div>
                               <div className="footerBlocksHeading1">
-                                   <button><u>Home</u></button><br/>
-                                   <button><u>PgList</u></button><br/>
-                                   <button><u>User MOde</u></button><br/>
-                                   <button><u>Admin Mode</u></button><br/>
-                                   <button><u>Contact us</u></button><br/>
-                                   <button><u>About Us</u></button><br/>
+                                   <button><Link to={"/Home"}><u>Home</u></Link></button><br/>
+                                   <button><Link to="/PgList"><u>PgList</u></Link></button><br/>
+                                   <button><Link to="/PgList"><u>User MOde</u></Link></button><br/>
+                                   <button><Link to="/AdminMode"><u>Admin Mode</u></Link></button><br/>
+                                   <button><Link to="/ContactUs"><u>Contact us</u></Link></button><br/>
+                                   <button><Link><u>About Us</u></Link></button><br/>
                               </div>
                          </div>
                          

@@ -10,7 +10,10 @@ import Features from './components/Features'
 import Footer from './components/Footer'
  import Room1 from './room1.jpg';
  import PgList from './components/PgList';
+ import AdminMode from './components/AdminMode';
  import {BrowserRouter as Router ,Link,Route} from  "react-router-dom";
+ import ImageGallary from './ImageGallary';
+ import ContactUs from './components/ContactUs';
 
 function App() {
   const [user,setUser] = useState('');
@@ -19,6 +22,8 @@ function App() {
   const [emailError,setEmailError] =useState('');
   const [passwordError,setPasswordError] = useState('');
   const [hasAccount,setHasAccount] = useState('');
+  const [img,setImg] = useState('');
+  console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAa",img);
   
   const clearInputs = () =>{
       setEmail('');
@@ -93,6 +98,13 @@ function App() {
               <Route path="/" exact><Module/></Route>
               <Route path="/" exact><Footer/></Route>    
               <Route path="/PgList"><PgList/></Route>
+              <Route path="/ContactUs"><ContactUs/></Route>
+              
+              <Route path="/AdminMode">
+                                <AdminMode setImg={setImg}/>
+                      </Route>
+              {/*  */}
+               {/* <ImageGallary/> */}
               </switch>
           </Router>
            

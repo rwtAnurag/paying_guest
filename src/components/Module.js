@@ -6,7 +6,10 @@ import { useEffect, useState } from 'react';
 import PgList from './PgList';
 import Pglist1 from '../T2.jpg';
 import Pglist2 from '../pglist.jpg';
-import {BrowserRouter as Router ,Link,Route} from  "react-router-dom"
+import {BrowserRouter as Router ,Link,Route} from  "react-router-dom";
+import { ImportExport } from '@material-ui/icons';
+import AdminMode from './AdminMode';
+
 function Module() {
       
       console.log("data",Data[0].name);
@@ -48,8 +51,9 @@ function Module() {
                         </h5>
                         <button>
                               <Link style={{color:"orange"}} to={"/AdminMode"}>
-                              Open Admin Mode
+                                     Open Admin Mode
                               </Link>
+                             
                         </button>
                </div>
           </div>
